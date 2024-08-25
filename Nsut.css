@@ -1,0 +1,262 @@
+@import 'patterns_icons';
+@include vf-p-icon--add-canvas;
+a{
+    text-decoration: none;
+}
+#About{
+    position :relative;
+    margin-top: 72px;
+    margin-bottom: 60px;
+    left:161px;
+    width : 60%;
+    font-family: system-ui;
+    line-height: 30px;
+}
+span{
+    color:rgb(76, 111, 145);
+}
+h2{
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0px 0px 0px 0px;
+    font-family:'"Ubuntu Mono", Consolas, Monaco, Courier, monospace';
+    font-family: system-ui;
+}
+#dash{
+    background-color : rgb(76, 111, 145);
+    margin-top:12px;
+    width: 61px;
+    height: 4px;
+}
+.p-button{
+    font-family: system-ui;
+    width: 126px;
+    height: auto;
+    background-color: white;
+    border: 1px solid;
+}
+.p-button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+#f1{
+    position: relative;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    left:-8px;
+    background-color: #003262;
+    width:100vw;
+    height:auto;
+    box-sizing: border-box;
+}
+#a{
+    height: 54.5px;
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: 0px 0px 7px 0px black;
+    transform: scaleZ(1);
+}
+#container{
+    width:19vw;
+}
+#i{
+    width: 600px;
+}
+
+@media screen and (max-width :937px) {
+    #f1{
+        flex-direction: column;
+    }
+    #a{
+        width: 400px;
+    }
+    #container{
+        width: 365px;
+    }
+    #i{
+        width:420px;
+    }
+}
+
+#Admissions{
+    width:100vw;
+    background-image: url('bg.jpg');
+    display:flex;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+}
+#A1{
+    padding :26px;
+}
+#P1{
+    font-size: 20px;
+    font-weight: 100;
+}
+#dash2{
+    background-color: white;
+    height: 3px;
+    width: 82px;
+    margin-top: 4px;
+    margin-bottom: 32px;
+}
+#Departments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dash3{
+    background-color: black;
+    height: 2px;
+    width: 57px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+#d1{
+    text-align: center;
+    width: 400px;
+}
+h4{
+    font-weight: 400;
+}
+#research{
+    background-image: url(research.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: italic;
+    height: 600px;
+
+}
+
+#blur{
+    position: relative;
+    top:100px;
+    background: rgb(0 53 99 / 90%);
+    height: 70%;
+    width: 70%;
+    height:auto;
+}
+#blur::before{
+    content: url('http://www.nsut.ac.in/themes/custom/nsut/images/icon13.png');
+    float:left;
+}
+#blur::after{
+    content: url('icon14.png');
+    left:100%;
+    float: right;
+}
+#blurcontent{
+    position: relative;
+    bottom:53px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#flexwork2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100vw;
+    height: auto;
+}
+#links{
+    background-color: #003262;
+    color: white;
+    width: 100vw;
+    height:auto;
+    display: flex;
+    justify-content: center;
+
+}
+h6{
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#l p{
+    font-weight: 400;
+    font-size: 15px;
+}
+#l{
+    width:40%;
+    margin-left:40px;
+    margin-top : 40px;
+    margin-bottom: 20px;
+}
+#dash4{
+    background-color: #7d7d7d;
+    height:2px;
+    width:40px;
+    margin-bottom: 20px;
+}
+#standing{
+    width:0.1px;
+    border: 0.1px dotted #7d7d7d;
+    height:517px;
+    margin-top:42px;
+}
+#horizontal{
+    height: 0.1px;
+    border:0.1px dotted #7d7d7d;
+    width:10px;
+}
+.u-divider--light u-no-margin--top{
+    width:5px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    position: relative;
+    width: 91%;
+    left: -13px;
+    background-color: #7d7d7d;
+}
+#l a{
+    color:white;
+}
+#ahr{
+    background-color: #0071b3;
+    width: 112%;
+    position: relative;
+    left: -2px;
+}
+#ahr1{
+    background-color: #0071b3;
+    width: 107%;
+    position: relative;
+    left: -2px;
+
+}
+#ahr2{
+    background-color: #0071b3;
+    width: 107%;
+    position: relative;
+    left: -2px;
+}
+#newsb:hover{
+    background-color: black;
+
+}
+#dash5{
+    background-color: #006fce;
+    width:10px;
+    height:1px;
+    margin-top: 40px;
+    position: relative;
+    left:1px;
+}
+#news{
+    display:flex;
+}
